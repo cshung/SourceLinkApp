@@ -26,5 +26,10 @@ namespace SourceLinkApp
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            throw new Exception("Can you find my source?");
+        }
     }
 }
